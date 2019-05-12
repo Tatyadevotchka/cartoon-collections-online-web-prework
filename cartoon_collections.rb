@@ -1,4 +1,4 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves
   dwarves.each_with_name {|name,i|
   i+=1 
   puts"#{i}. #{name}"
@@ -18,4 +18,5 @@ end
 def find_the_cheese(strings)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
+  strings.detect{|strings| cheese_types.include? strings}
 end
