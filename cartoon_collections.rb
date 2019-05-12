@@ -1,10 +1,10 @@
-def roll_call_dwarves
+def roll_call_dwarves(dwarves)
   dwarves.each_with_name {|name,i|
   i+=1 
   puts"#{i}. #{name}"
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet()
   def summon_captain_planet(planeteer_calls)
     planeteer_calls.collect{|element| element.capitalize!+"!"}
     
